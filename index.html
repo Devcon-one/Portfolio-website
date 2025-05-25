@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar">
+        <li><a href='#'>Home</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='#projects'>Projects</a></li>
+    </nav>
     <header >
         <h1> Welcome, Take a look into Siphelele's mind</h1>  
        <h3>Take a look around!</h3>
 
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
         <h2>About Me</h2>
          <p>I'm a software developer in training</p>
          
@@ -22,17 +27,42 @@
 
     <section class="Projects">
         <h2>Projects</h2>
-        <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-            <li><a href="#">Project 4</a></li>
-            <li><a href="#">Project 5</a></li>
-        </ul>
+        <div class="Project-list">
+            <div class="project-card">
+                <h3> Halcyon Aegis </h3>
+                <p>A web application developed
+                    for a private military contractor
+                </p>
+                <a href="#" target="blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3> Project 2 </h3>
+                <p>Lorem Ipsum
+                </p>
+                <a href="#" target="blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3> Project 3 </h3>
+                <p>Lorem Ipsum
+                </p>
+                <a href="#" target="blank">View Project</a>
+            </div>
+
+        </div>
     </section>
+    <div id="Space">
+
+    </div>
     
     <footer>
-        <p>Lets connect : SipheleleMsane@gmail.com, Phone: +27 34 776 5433</p>
+        <p> © 2025 Siphelele Msane </p>
+        <div class="social-links">
+            <a href="#" target="blank">Instagram</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Devcon-one" target="blank">Github</a>
+        </div>
     </footer>
 </body>
 </html>

@@ -6,6 +6,8 @@ body{
     color: rgb(29, 23, 16);
 }
 
+
+
 header{
     background: #d73232;
     color: antiquewhite;
@@ -27,12 +29,102 @@ h2{
 }
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
     background: #d73232;
     color: #f6f6f6;
+
 
 }
 .about{
     padding:20px;
   
+}
+
+.social-links > a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #f6f6f6;
+}
+
+.social-links > a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    color: black;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card{
+    background-color: #f6f6f6;
+    border-left: 4px solid #d73232;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.473);
+    transition: transform 0.2s;
+}
+
+.project-card:hover{
+    transform: translateX(5px);
+}
+
+.project-card >h3{
+    margin-top: 0;
+    color: #d73232;
+}
+
+.project-card > p{
+    font-size: 14px;
+    color:gray;
+}
+
+.project-card > a{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #d73232;
+    color: #f6f6f6;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.project-card > a:hover{
+    background-color: aqua;
+}
+
+nav{
+    background-color: #770808b6;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+   
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 100px;
+    margin: 0;
+    gap:20px;
+   
+}
+
+.navbar >li > a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.navbar > li > a:hover{
+    background-color: #d94210e4;
 }
