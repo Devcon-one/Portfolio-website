@@ -64,7 +64,8 @@ footer{
     border-left: 4px solid #d73232;
     padding: 15px;
     border-radius: 8px;
-    width: 300px;
+    width: 250px;
+    height: 190px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.473);
     transition: transform 0.2s;
 }
@@ -100,7 +101,7 @@ footer{
 }
 
 nav{
-    background-color: #770808b6;
+    background-color: #d73232;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -113,8 +114,7 @@ nav{
     justify-content: center;
     padding: 10px 100px;
     margin: 0;
-    gap:20px;
-   
+    gap:20px; 
 }
 
 .navbar >li > a{
@@ -126,5 +126,6 @@ nav{
 }
 
 .navbar > li > a:hover{
-    background-color: #d94210e4;
+    background-color: #790000e4;
+
 }
